@@ -1,0 +1,7 @@
+<Context>
+  <Resource auth="Container" type="javax.sql.DataSource"
+               maxActive="20" maxIdle="5" maxWait="10000"
+               username="root" password="1610namita" 
+               driverClassName="com.mysql.jdbc.Driver"
+               name="jdbc/social_db" url="jdbc:mysql://localhost:3306/social_db?useSSL=false"/>
+</Context>
